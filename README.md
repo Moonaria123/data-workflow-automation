@@ -325,6 +325,6 @@ hotfix/*     # 紧急修复分支
 [![GitHub forks](https://img.shields.io/github/forks/Moonaria123/data-workflow-automation.svg?style=social&label=Fork)](https://github.com/Moonaria123/data-workflow-automation/fork)
 [![GitHub watchers](https://img.shields.io/github/watchers/Moonaria123/data-workflow-automation.svg?style=social&label=Watch)](https://github.com/Moonaria123/data-workflow-automation)
 
-*最后更新：2025-01-09 | 版本：v1.0.0*
+*最后更新：2025-09-22 | 版本：v1.0.0*
 
 </div>
