@@ -1,0 +1,105 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 项目特定
+logs/*.log
+temp/*
+!temp/.gitkeep
+cache/
+*.tmp
+*.bak
+*.backup
+
+# 用户数据
+user_data/
+exports/
+imports/
+workspace/
+
+# 配置文件
+config/local_config.json
+config/production_config.json
+
+# 打包文件
+*.exe
+*.msi
+*.dmg
+*.deb
+*.rpm
+
+# 测试数据
+test_data_large.csv
+test_files/
+temp_test_*
+
+# 报告和分析
+reports/temp/
+htmlcov/
+property_system_validation.log
+comprehensive_*.log
+*.coverage
+
+# 开发产物
+.pre-commit-config.yaml.bak
+requirements-local.txt
