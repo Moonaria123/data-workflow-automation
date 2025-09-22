@@ -1,0 +1,68 @@
+{
+  "application": {
+    "name": "数据工作流自动化平台",
+    "version": "1.0.0",
+    "description": "专为个人用户设计的桌面可视化数据处理工作流平台",
+    "author": "DWA Development Team",
+    "debug": false
+  },
+  "performance": {
+    "max_memory_mb": 2048,
+    "max_cpu_percent": 80,
+    "max_file_size_mb": 1024,
+    "timeout_seconds": 3600,
+    "enable_parallel_execution": true,
+    "max_concurrent_workflows": 10
+  },
+  "ui": {
+    "theme": "auto",
+    "language": "zh_CN",
+    "auto_save_interval": 300,
+    "window_width": 1200,
+    "window_height": 800,
+    "enable_animations": true
+  },
+  "data": {
+    "default_encoding": "utf-8",
+    "temp_dir": "temp",
+    "cache_size_mb": 512,
+    "backup_enabled": true,
+    "max_rows_preview": 1000
+  },
+  "security": {
+    "enable_file_validation": true,
+    "allowed_extensions": [".csv", ".xlsx", ".xls", ".json", ".xml", ".txt"],
+    "max_upload_size_mb": 100,
+    "sandbox_execution": true
+  },
+  "logging": {
+    "level": "INFO",
+    "max_file_size_mb": 10,
+    "backup_count": 5,
+    "console_output": true,
+    "log_dir": "logs"
+  },
+  "database": {
+    "type": "sqlite",
+    "path": "data/app.db",
+    "connection_pool_size": 5,
+    "query_timeout": 30
+  },
+  "plugins": {
+    "enabled": true,
+    "auto_load": true,
+    "plugin_dir": "plugins"
+  },
+  "nodes": {
+    "strict_unique_id": false,
+    "enable_validation": true,
+    "auto_register": true,
+    "cache_node_info": true
+  },
+  "engine": {
+    "max_workers": 4,
+    "scheduler_strategy": "hybrid",
+    "enable_checkpoints": true,
+    "state_persistence": true
+  }
+}
